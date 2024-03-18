@@ -1,0 +1,28 @@
+
+  <nav >
+    <mat-toolbar class="navbar">
+      
+      <button mat-icon-button class="toggle-button-row " aria-label="Example icon-button with menu icon" (click)="toggleSlideOut()" >
+        <mat-icon>menu</mat-icon>
+    </button>
+        <div class= "slide-out-panel" [class.slide-out]="isSlideOut">
+            <div class="slide-out-content">
+                <p class="edit-col" (click)="dash()">Dashboard</p>
+                <p class="edit-col" (click)="log()">Entry</p>
+            </div>
+        </div>
+  
+      <h2 class="myapp">My App</h2>
+      <span class="example-spacer"></span>
+      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <mat-icon>favorite</mat-icon>
+      </button>
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <mat-icon>share</mat-icon>
+      </button>
+   
+    </mat-toolbar>
+</nav>
+  
+ 
+  

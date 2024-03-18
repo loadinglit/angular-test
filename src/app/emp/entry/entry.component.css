@@ -1,0 +1,124 @@
+
+/* Styles for login form */
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+mat-card {
+  width: 500px;
+  padding: 20px;
+  border-radius: 15px;
+  background: linear-gradient(to bottom right, #6cc0e4, #5d78c5); /* Gradient background */
+  box-shadow: 0 10px 20px rgba(41, 40, 40, 0.3); /* Enhanced box-shadow */
+}
+
+mat-card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.mat-icon {
+  padding-bottom:20px ;
+  padding-right: 20px;
+  font-size: 30px;
+  color: white; /* Icon color */
+}
+
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.header-content h4 {
+  margin-left: 5px; /* Adjust as needed */
+  font-size: 24px; /* Adjust as needed */
+  color: rgb(14, 13, 13); /* Adjust as needed */
+}
+
+
+mat-form-field {
+  width: 100%;
+}
+
+/* Button styles */
+mat-raised-button {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #007bff; /* Button color */
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.4); /* Enhanced box-shadow */
+}
+
+mat-raised-button:hover {
+  background-color: #0056b3; /* Button color on hover */
+}
+
+/* Highlighted text */
+.highlighted {
+  color: white; /* Highlight color */
+  cursor: pointer;
+}
+
+/* Centering text */
+h3 {
+   padding-left: 10px;
+  text-align: center;
+}
+
+.tagline{
+  padding-top: 20px;
+}
+
+
+  /* mat-card {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  mat-card-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  mat-form-field {
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  mat-card-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  mat-icon {
+    font-size: 25px;
+    color: #1976d2;
+  }
+  
+  button {
+    width: 45%;
+  }
+  
+  mat-card-header {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Styling for the <p> tag */
+  /* p {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .highlighted {
+    color: #1976d2;
+    cursor: pointer;
+  }
+   */
